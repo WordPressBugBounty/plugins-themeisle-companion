@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/themeisle-companion',
-        'pretty_version' => 'v2.10.40',
-        'version' => '2.10.40.0',
-        'reference' => '273bf59400984aad562dcf62a20605729bbbc1cf',
+        'pretty_version' => 'v2.10.41',
+        'version' => '2.10.41.0',
+        'reference' => '5586c7e5f003f890f8f1414dd6b270c4249480c4',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,9 +31,9 @@
             'dev_requirement' => false,
         ),
         'codeinwp/themeisle-companion' => array(
-            'pretty_version' => 'v2.10.40',
-            'version' => '2.10.40.0',
-            'reference' => '273bf59400984aad562dcf62a20605729bbbc1cf',
+            'pretty_version' => 'v2.10.41',
+            'version' => '2.10.41.0',
+            'reference' => '5586c7e5f003f890f8f1414dd6b270c4249480c4',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
