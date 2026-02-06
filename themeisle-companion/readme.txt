@@ -2,7 +2,7 @@
 Contributors: themeisle, codeinwp, rodicaelena, baicusandrei, hardeepasrani
 Tags: duplicate page, cookie notice, share buttons, login customizer, svg support
 Requires at least: 5.3
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
 Stable tag: trunk
 License: GPLv2 or later
@@ -146,6 +146,27 @@ Activating the Orbit Fox plugin is just like any other plugin. If you've uploade
 7. Custom Fonts
 
 == Changelog ==
+
+##### [Version 3.0.5](https://github.com/Codeinwp/themeisle-companion/compare/v3.0.4...v3.0.5) (2025-12-05)
+
+- Fixed issue related to Elementor widgets module causing error in Hestia theme
+
+
+
+
+##### [Version 3.0.4](https://github.com/Codeinwp/themeisle-companion/compare/v3.0.3...v3.0.4) (2025-12-04)
+
+- Fixed pagination of Grid Post Type
+
+
+
+
+##### [Version 3.0.3](https://github.com/Codeinwp/themeisle-companion/compare/v3.0.2...v3.0.3) (2025-11-03)
+
+- Enhanced security
+
+
+
 
 ##### [Version 3.0.2](https://github.com/Codeinwp/themeisle-companion/compare/v3.0.1...v3.0.2) (2025-10-01)
 
