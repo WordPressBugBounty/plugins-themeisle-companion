@@ -69,7 +69,7 @@ class Orbit_Fox {
 
 		$this->plugin_name = 'orbit-fox';
 
-		$this->version = '3.0.9';
+		$this->version = '3.0.10';
 
 		$this->load_dependencies();
 		$this->set_locale();
@@ -188,6 +188,11 @@ class Orbit_Fox {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'wp_ajax_obfx_update_module_options', $plugin_admin, 'obfx_update_module_options' );
 		$this->loader->add_action( 'wp_ajax_obfx_update_module_active_status', $plugin_admin, 'obfx_update_module_active_status' );
+
+		$plugin_abilities = new Orbit_Fox_Abilities( $plugin_admin );
+
+		$this->loader->add_action( 'wp_abilities_api_categories_init', $plugin_abilities, 'register_category' );
+		$this->loader->add_action( 'wp_abilities_api_init', $plugin_abilities, 'register_abilities' );
 
 		$plugin_public = new Orbit_Fox_Public( $this->get_plugin_name(), $this->get_version() );
 

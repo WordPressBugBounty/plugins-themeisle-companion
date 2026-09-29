@@ -15,7 +15,7 @@
  * Plugin Name:       Orbit Fox Companion
  * Plugin URI:        https://orbitfox.com/
  * Description:       This swiss-knife plugin comes with a quality template library, menu/sharing icons modules, Gutenberg blocks, and newly added Elementor/BeaverBuilder page builder widgets on each release.
- * Version:           3.0.9
+ * Version:           3.0.10
  * Author:            Themeisle
  * Author URI:        https://orbitfox.com/
  * License:           GPL-2.0+
@@ -100,6 +100,25 @@ function run_orbit_fox() {
 			return array(
 				'logo'     => esc_url( OBFX_URL . 'images/orbit-fox.png' ),
 				'location' => 'obfx_companion',
+			);
+		}
+	);
+	add_filter(
+		'themeisle_companion_ai_connect_metadata',
+		function() {
+			return array(
+				'name'           => 'Orbit Fox',
+				'notice_cases'   => array(
+					__( 'switch modules on or off', 'themeisle-companion' ),
+					__( 'adjust your social sharing buttons', 'themeisle-companion' ),
+					__( 'clean up modules you do not use', 'themeisle-companion' ),
+				),
+				'prompts'        => array(
+					__( 'Turn on Orbit Fox social sharing and show the buttons on posts only.', 'themeisle-companion' ),
+					__( 'Deactivate every module I am not using.', 'themeisle-companion' ),
+					__( 'Show share buttons for Facebook, X and LinkedIn only, on the left side.', 'themeisle-companion' ),
+				),
+				'ability_prefix' => 'orbit-fox',
 			);
 		}
 	);
