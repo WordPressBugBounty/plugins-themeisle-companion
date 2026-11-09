@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Orbit Fox Companion 3.0.11\n"
+"Project-Id-Version: Orbit Fox Companion 3.0.12\n"
 "Report-Msgid-Bugs-To: "
 "https://github.com/Codeinwp/themeisle-companion/issues\n"
-"POT-Creation-Date: 2026-10-26 06:40:53+00:00\n"
+"POT-Creation-Date: 2026-11-09 09:22:59+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2345,21 +2345,21 @@ msgid "Style"
 msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:675
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1129
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1135
 msgid "This is a preview of how the success notification will look"
 msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:679
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1133
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1139
 msgid "This is a preview of how the error notification will look"
 msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:724
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:735
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:769
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1006
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1017
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1053
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1012
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1023
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1059
 #. translators: %s: Setting name
 #. translators: %s is setting name.
 msgid "The %s setting is required!"
@@ -2367,18 +2367,18 @@ msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:725
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/class-themeisle-content-forms-beaver-newsletter.php:111
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1007
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1013
 #: obfx_modules/content-forms/includes/widgets-admin/elementor/newsletter_admin.php:223
 msgid "Access Key"
 msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:736
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1018
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1024
 msgid "List id"
 msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:750
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1032
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1038
 #. translators: %s: Field name
 #. translators: %s is field name.
 msgid ""
@@ -2387,7 +2387,7 @@ msgid ""
 msgstr ""
 
 #: obfx_modules/content-forms/includes/widgets-admin/beaver/beaver_widget_base.php:770
-#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1054
+#: obfx_modules/content-forms/includes/widgets-admin/elementor/elementor_widget_base.php:1060
 msgid "Send to Email Address"
 msgstr ""
 
